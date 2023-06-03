@@ -1,0 +1,12 @@
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\StoreApp.Models.deps.json
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\StoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\StoreApp.Models.pdb
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.csproj.AssemblyReference.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.AssemblyInfoInputs.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.AssemblyInfo.cs
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.csproj.CoreCompileInputs.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\refint\StoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\StoreApp.Models.pdb
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\ref\StoreApp.Models.dll

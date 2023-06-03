@@ -3107,6 +3107,43 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "StoreApp.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "StoreApp.Models": "1.0.0",
+          "StoreApp.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StoreApp.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreApp.DataAccess.dll": {}
+        }
+      },
+      "StoreApp.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StoreApp.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreApp.Models.dll": {}
+        }
+      },
+      "StoreApp.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/StoreApp.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StoreApp.Utility.dll": {}
+        }
       }
     }
   },
@@ -9585,6 +9622,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "StoreApp.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../StoreApp.DataAccess/StoreApp.DataAccess.csproj",
+      "msbuildProject": "../StoreApp.DataAccess/StoreApp.DataAccess.csproj"
+    },
+    "StoreApp.Models/1.0.0": {
+      "type": "project",
+      "path": "../StoreApp.Models/StoreApp.Models.csproj",
+      "msbuildProject": "../StoreApp.Models/StoreApp.Models.csproj"
+    },
+    "StoreApp.Utility/1.0.0": {
+      "type": "project",
+      "path": "../StoreApp.Utility/StoreApp.Utility.csproj",
+      "msbuildProject": "../StoreApp.Utility/StoreApp.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9592,7 +9644,10 @@
       "Microsoft.EntityFrameworkCore >= 6.0.16",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
+      "StoreApp.DataAccess >= 1.0.0",
+      "StoreApp.Models >= 1.0.0",
+      "StoreApp.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -9626,7 +9681,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\StoreApp.DataAccess.csproj": {
+              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\StoreApp.DataAccess.csproj"
+            },
+            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj": {
+              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj"
+            },
+            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\StoreApp.Utility.csproj": {
+              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\StoreApp.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

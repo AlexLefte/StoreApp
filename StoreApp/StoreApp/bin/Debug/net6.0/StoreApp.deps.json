@@ -11,7 +11,10 @@
           "Microsoft.EntityFrameworkCore": "6.0.16",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.16",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "StoreApp.DataAccess": "1.0.0",
+          "StoreApp.Models": "1.0.0",
+          "StoreApp.Utility": "1.0.0"
         },
         "runtime": {
           "StoreApp.dll": {}
@@ -2255,6 +2258,28 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "StoreApp.DataAccess/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.16",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.16",
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.13",
+          "StoreApp.Models": "1.0.0",
+          "StoreApp.Utility": "1.0.0"
+        },
+        "runtime": {
+          "StoreApp.DataAccess.dll": {}
+        }
+      },
+      "StoreApp.Models/1.0.0": {
+        "runtime": {
+          "StoreApp.Models.dll": {}
+        }
+      },
+      "StoreApp.Utility/1.0.0": {
+        "runtime": {
+          "StoreApp.Utility.dll": {}
+        }
       }
     }
   },
@@ -3467,6 +3492,21 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "StoreApp.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StoreApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StoreApp.Utility/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
