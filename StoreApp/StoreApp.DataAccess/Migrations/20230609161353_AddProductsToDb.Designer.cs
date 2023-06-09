@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StoreApp.DataAccess.Data;
 
@@ -10,9 +11,10 @@ using StoreApp.DataAccess.Data;
 namespace StoreApp.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230609161353_AddProductsToDb")]
+    partial class AddProductsToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,25 +48,25 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 1,
                             DisplayOrder = 1,
-                            Name = "Rock"
+                            Name = "Action"
                         },
                         new
                         {
                             Id = 2,
                             DisplayOrder = 2,
-                            Name = "Jazz"
+                            Name = "SciFi"
                         },
                         new
                         {
                             Id = 3,
                             DisplayOrder = 3,
-                            Name = "Classical"
+                            Name = "History"
                         },
                         new
                         {
                             Id = 4,
                             DisplayOrder = 4,
-                            Name = "Hip hop"
+                            Name = "Animation"
                         });
                 });
 
@@ -112,74 +114,74 @@ namespace StoreApp.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Author = "AC/DC",
-                            Description = "A timeless rock album by Australian band AC / DC,released in 1980.It features iconic tracks like 'Hells Bells', 'Back in Black', and 'You Shook Me All Night Long' showcasing the band's signature hard-hitting guitar riffs, powerful vocals, and energetic rhythm section. This album is considered one of the greatest rock records of all time, capturing the essence of AC/DC's high - voltage sound.",
+                            Author = "Billy Spark",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "SWD9999001",
                             ListPrice = 99.0,
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
-                            Title = "Back in Black"
+                            Title = "Fortune of Time"
                         },
                         new
                         {
                             Id = 2,
-                            Author = "Nirvana",
-                            Description = "\"Nevermind\" is the breakthrough second studio album by American rock band Nirvana, released in 1991. It propelled the band and the grunge movement into the mainstream with its raw and honest sound.",
+                            Author = "Nancy Hoover",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "CAW777777701",
                             ListPrice = 40.0,
                             Price = 30.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
-                            Title = "Nevermind"
+                            Title = "Dark Skies"
                         },
                         new
                         {
                             Id = 3,
-                            Author = "Nas",
-                            Description = "\"Illmatic\" is the debut studio album by American rapper Nas, released in 1994. Considered one of the greatest hip hop albums of all time, it showcases Nas' lyrical prowess and storytelling ability over soulful and jazzy production",
+                            Author = "Julian Button",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "RITO5555501",
                             ListPrice = 55.0,
                             Price = 50.0,
                             Price100 = 35.0,
                             Price50 = 40.0,
-                            Title = "Illmatic"
+                            Title = "Vanish in the Sunset"
                         },
                         new
                         {
                             Id = 4,
-                            Author = "Dr. Dre",
-                            Description = "\"The Chronic\" is the debut solo album by American producer and rapper Dr. Dre, released in 1992.",
+                            Author = "Abby Muscles",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "WS3333333301",
                             ListPrice = 70.0,
                             Price = 65.0,
                             Price100 = 55.0,
                             Price50 = 60.0,
-                            Title = "The Chronic"
+                            Title = "Cotton Candy"
                         },
                         new
                         {
                             Id = 5,
                             Author = "Ron Parker",
-                            Description = "\"Kind of Blue\" is a seminal jazz album by American trumpeter Miles Davis, released in 1959. It is regarded as one of the greatest and most influential jazz recordings of all time.",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "SOTJ1111111101",
                             ListPrice = 30.0,
                             Price = 27.0,
                             Price100 = 20.0,
                             Price50 = 25.0,
-                            Title = "Kind of Blue"
+                            Title = "Rock in the Ocean"
                         },
                         new
                         {
                             Id = 6,
-                            Author = "Johann Sebastian Bach",
-                            Description = "\"The Well - Tempered Clavier\" is a collection of two sets of preludes and fugues composed by Johann Sebastian Bach. It is considered a cornerstone of classical keyboard music.",
+                            Author = "Laura Phantom",
+                            Description = "Praesent vitae sodales libero. Praesent molestie orci augue, vitae euismod velit sollicitudin ac. Praesent vestibulum facilisis nibh ut ultricies.\r\n\r\nNunc malesuada viverra ipsum sit amet tincidunt. ",
                             ISBN = "FOT000000001",
                             ListPrice = 25.0,
                             Price = 23.0,
                             Price100 = 20.0,
                             Price50 = 22.0,
-                            Title = "The Well-Tempered Clavier"
+                            Title = "Leaves and Wonders"
                         });
                 });
 #pragma warning restore 612, 618
