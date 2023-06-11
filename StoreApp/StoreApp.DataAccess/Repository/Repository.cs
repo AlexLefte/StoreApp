@@ -21,6 +21,7 @@ namespace StoreApp.DataAccess.Repository
         {
             _db = db;       
             _dbSet = _db.Set<T>();
+            _db.Products.Include(prod => prod.Category).Include(prod => prod.CategoryId);
         }
         #endregion
 
@@ -30,14 +31,33 @@ namespace StoreApp.DataAccess.Repository
             _dbSet.Add(entity);
         }
 
-        public T Get(System.Linq.Expressions.Expression<Func<T, bool>> filter)
+        public T Get(System.Linq.Expressions.Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
-            return _dbSet.Where(filter).FirstOrDefault();
+            IQueryable<T> query = _dbSet;
+            query = query.Where(filter);
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach (var includeProperty in includeProperties.
+                    Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+            return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll()
+        public IEnumerable<T> GetAll(string? includeProperties = null)
         {
-            return _dbSet.ToList();
+            IQueryable<T> query = _dbSet;
+            if (!string.IsNullOrEmpty(includeProperties))
+            {
+                foreach(var includeProperty in includeProperties.
+                    Split(',', StringSplitOptions.RemoveEmptyEntries))
+                {
+                    query = query.Include(includeProperty);
+                }
+            }
+            return query.ToList();
         }
 
         public void Remove(T entity)

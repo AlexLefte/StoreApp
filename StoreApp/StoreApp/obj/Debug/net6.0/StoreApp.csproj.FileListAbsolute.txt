@@ -271,3 +271,15 @@ D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\StoreApp.Utility.dll
 D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\StoreApp.DataAccess.pdb
 D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\StoreApp.Models.pdb
 D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\StoreApp.Utility.pdb
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\obj\Debug\net6.0\StoreApp.MvcApplicationPartsAssemblyInfo.cs
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll

@@ -80,11 +80,18 @@ namespace StoreApp.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ISBN")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -106,6 +113,8 @@ namespace StoreApp.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Products");
 
                     b.HasData(
@@ -113,8 +122,10 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 1,
                             Author = "AC/DC",
+                            CategoryId = 1,
                             Description = "A timeless rock album by Australian band AC / DC,released in 1980.It features iconic tracks like 'Hells Bells', 'Back in Black', and 'You Shook Me All Night Long' showcasing the band's signature hard-hitting guitar riffs, powerful vocals, and energetic rhythm section. This album is considered one of the greatest rock records of all time, capturing the essence of AC/DC's high - voltage sound.",
                             ISBN = "SWD9999001",
+                            ImageUrl = "",
                             ListPrice = 99.0,
                             Price = 90.0,
                             Price100 = 80.0,
@@ -125,8 +136,10 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 2,
                             Author = "Nirvana",
+                            CategoryId = 1,
                             Description = "\"Nevermind\" is the breakthrough second studio album by American rock band Nirvana, released in 1991. It propelled the band and the grunge movement into the mainstream with its raw and honest sound.",
                             ISBN = "CAW777777701",
+                            ImageUrl = "",
                             ListPrice = 40.0,
                             Price = 30.0,
                             Price100 = 20.0,
@@ -137,8 +150,10 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 3,
                             Author = "Nas",
+                            CategoryId = 4,
                             Description = "\"Illmatic\" is the debut studio album by American rapper Nas, released in 1994. Considered one of the greatest hip hop albums of all time, it showcases Nas' lyrical prowess and storytelling ability over soulful and jazzy production",
                             ISBN = "RITO5555501",
+                            ImageUrl = "",
                             ListPrice = 55.0,
                             Price = 50.0,
                             Price100 = 35.0,
@@ -149,8 +164,10 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 4,
                             Author = "Dr. Dre",
+                            CategoryId = 4,
                             Description = "\"The Chronic\" is the debut solo album by American producer and rapper Dr. Dre, released in 1992.",
                             ISBN = "WS3333333301",
+                            ImageUrl = "",
                             ListPrice = 70.0,
                             Price = 65.0,
                             Price100 = 55.0,
@@ -161,8 +178,10 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 5,
                             Author = "Ron Parker",
+                            CategoryId = 2,
                             Description = "\"Kind of Blue\" is a seminal jazz album by American trumpeter Miles Davis, released in 1959. It is regarded as one of the greatest and most influential jazz recordings of all time.",
                             ISBN = "SOTJ1111111101",
+                            ImageUrl = "",
                             ListPrice = 30.0,
                             Price = 27.0,
                             Price100 = 20.0,
@@ -173,14 +192,27 @@ namespace StoreApp.DataAccess.Migrations
                         {
                             Id = 6,
                             Author = "Johann Sebastian Bach",
+                            CategoryId = 3,
                             Description = "\"The Well - Tempered Clavier\" is a collection of two sets of preludes and fugues composed by Johann Sebastian Bach. It is considered a cornerstone of classical keyboard music.",
                             ISBN = "FOT000000001",
+                            ImageUrl = "",
                             ListPrice = 25.0,
                             Price = 23.0,
                             Price100 = 20.0,
                             Price50 = 22.0,
                             Title = "The Well-Tempered Clavier"
                         });
+                });
+
+            modelBuilder.Entity("StoreApp.Models.Product", b =>
+                {
+                    b.HasOne("StoreApp.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
                 });
 #pragma warning restore 612, 618
         }
