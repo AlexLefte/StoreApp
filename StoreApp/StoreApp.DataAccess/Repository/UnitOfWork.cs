@@ -17,6 +17,8 @@ namespace StoreApp.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
         public IProductRepository Product { get; private set; }
         public ICompanyRepository Company { get; private set; }
+        public IShoppingCartRepository ShoppingCart { get; private set; }
+        public IUserRepository User { get; private set; }
 
         #region Constructor
         public UnitOfWork(ApplicationDbContext db)
@@ -25,6 +27,8 @@ namespace StoreApp.DataAccess.Repository
             Category = new CategoryRepository(_db);
             Product = new ProductRepository(_db);
             Company = new CompanyRepository(_db);
+            ShoppingCart = new ShoppingCartRepository(_db);
+            User = new UserRepository(_db);
         }
         #endregion
 
