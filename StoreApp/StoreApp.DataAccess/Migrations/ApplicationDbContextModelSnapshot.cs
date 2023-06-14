@@ -273,6 +273,76 @@ namespace StoreApp.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("StoreApp.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Address")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("City")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("County")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("PostalCode")
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Address = "Bulevardul General Paul Teodorescu 4",
+                            City = "București",
+                            County = "București",
+                            Name = "Carturesti SRL",
+                            PhoneNumber = "0723451234",
+                            PostalCode = "061344"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Address = "Str. Independentei 20",
+                            City = "București",
+                            County = "București",
+                            Name = "SC Library",
+                            PhoneNumber = "0723321234",
+                            PostalCode = "061324"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Address = "Bulevardul Vasile Milea 32",
+                            City = "București",
+                            County = "București",
+                            Name = "Book Comp",
+                            PhoneNumber = "0723481234",
+                            PostalCode = "061321"
+                        });
+                });
+
             modelBuilder.Entity("StoreApp.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -419,6 +489,10 @@ namespace StoreApp.DataAccess.Migrations
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CompanyId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
                     b.Property<string>("County")
                         .HasColumnType("nvarchar(max)");
 
@@ -428,6 +502,8 @@ namespace StoreApp.DataAccess.Migrations
 
                     b.Property<string>("PostalCode")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("User");
                 });
@@ -492,6 +568,17 @@ namespace StoreApp.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("StoreApp.Models.User", b =>
+                {
+                    b.HasOne("StoreApp.Models.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

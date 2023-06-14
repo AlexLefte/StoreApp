@@ -17,6 +17,7 @@ namespace StoreApp.DataAccess.Data
         #region Properties
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<User> Users { get; set;  }
         #endregion
 
@@ -48,7 +49,7 @@ namespace StoreApp.DataAccess.Data
                     Id = 4,
                     Name = "Hip hop",
                     DisplayOrder = 4
-                });
+                });          
 
             modelBuilder.Entity<Product>().HasData(
                 new Product
@@ -140,7 +141,39 @@ namespace StoreApp.DataAccess.Data
                     Price100 = 20,
                     CategoryId = 3,
                     ImageUrl = ""
-                }); 
+                });
+
+            modelBuilder.Entity<Company>().HasData(
+                new Company
+                {
+                    Id = 1,
+                    Name = "Carturesti SRL",
+                    Address = "Bulevardul General Paul Teodorescu 4", 
+                    City = "București",
+                    County = "București",
+                    PostalCode = "061344",
+                    PhoneNumber = "0723451234"
+                },
+                new Company
+                {
+                    Id = 2,
+                    Name = "SC Library",
+                    Address = "Str. Independentei 20",
+                    City = "București",
+                    County = "București",
+                    PostalCode = "061324",
+                    PhoneNumber = "0723321234"
+                },
+                new Company
+                {
+                    Id = 3,
+                    Name = "Book Comp",
+                    Address = "Bulevardul Vasile Milea 32",
+                    City = "București",
+                    County = "București",
+                    PostalCode = "061321",
+                    PhoneNumber = "0723481234"
+                });
         }
         #endregion
     }
