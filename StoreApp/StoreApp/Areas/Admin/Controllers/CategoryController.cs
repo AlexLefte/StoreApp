@@ -1,12 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using StoreApp.DataAccess.Repository.IRepository;
-using StoreApp.DataAccess.Repository;
+﻿using StoreApp.DataAccess.Repository.IRepository;
 using StoreApp.Models;
-using StoreApp.DataAccess.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using StoreApp.Utility;
 
 namespace StoreApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin + "," + SD.Role_Employee)]
     public class CategoryController : Controller
     {
         #region Fields
