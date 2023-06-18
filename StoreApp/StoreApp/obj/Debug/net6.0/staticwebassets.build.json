@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "on474MWxl+Bxis8+llciU0R8xUXyzbl3TbLmmkaGnDs=",
+  "Hash": "dZDMWjPDpsHfa3b+tkdER/TTxrBYC4E0U67qNtZwE9Y=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -1239,6 +1239,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\js\\order.js",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\js\\product.js",

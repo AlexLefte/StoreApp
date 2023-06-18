@@ -110,6 +110,10 @@ bg-success {
     margin-bottom: 4rem;
 }
 
+.mb-rem-4 {
+    margin-bottom: 4rem;
+}
+
 .btn-outline-primary {
     color: #192E2F;
     border-color: #192E2F;
