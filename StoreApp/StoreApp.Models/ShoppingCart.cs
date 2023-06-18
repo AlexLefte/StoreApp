@@ -22,5 +22,8 @@ namespace StoreApp.Models
         [ForeignKey("UserId")]
         [ValidateNever]
         public string UserId { get; set; }
+
+        [NotMapped]
+        public double Price { get; set; }
     }
 }

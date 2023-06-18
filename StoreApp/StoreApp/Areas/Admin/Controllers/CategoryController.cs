@@ -40,11 +40,6 @@ namespace StoreApp.Areas.Admin.Controllers
                 ModelState.AddModelError("name", "The Display Order must not match the Name.");
             }
 
-            /*if (category.Name == "test")
-            {
-                ModelState.AddModelError("", "Test is an invalid value");
-            }*/
-
             // Check whether the model is valid
             if (ModelState.IsValid)
             {

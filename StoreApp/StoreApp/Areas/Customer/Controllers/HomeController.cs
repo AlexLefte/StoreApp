@@ -44,8 +44,7 @@ namespace StoreApp.Areas.Customer.Controllers
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
             cart.UserId = userId;
 
-            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(cart => cart.Id == cart.Id &&
-                cart.ProductId == cart.ProductId);
+            ShoppingCart cartFromDb = _unitOfWork.ShoppingCart.Get(cartFromDb => cartFromDb.ProductId == cart.ProductId);
 
             if (cartFromDb != null)
             {

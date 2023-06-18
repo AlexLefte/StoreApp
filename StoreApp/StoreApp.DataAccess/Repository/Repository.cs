@@ -31,10 +31,13 @@ namespace StoreApp.DataAccess.Repository
             _dbSet.Add(entity);
         }
 
-        public T Get(System.Linq.Expressions.Expression<Func<T, bool>> filter, string? includeProperties = null, bool tracked = false)
+        public T Get(System.Linq.Expressions.Expression<Func<T, bool>>? filter = null, string? includeProperties = null, bool tracked = false)
         { 
             IQueryable<T> query = (tracked) ? _dbSet : _dbSet.AsNoTracking();
-            query = query.Where(filter);
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
             if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach (var includeProperty in includeProperties.
@@ -46,9 +49,13 @@ namespace StoreApp.DataAccess.Repository
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll(string? includeProperties = null)
+        public IEnumerable<T> GetAll(System.Linq.Expressions.Expression<Func<T, bool>> filter, string? includeProperties = null)
         {
             IQueryable<T> query = _dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
             if (!string.IsNullOrEmpty(includeProperties))
             {
                 foreach(var includeProperty in includeProperties.
