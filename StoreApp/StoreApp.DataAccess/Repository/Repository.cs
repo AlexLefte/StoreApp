@@ -49,7 +49,7 @@ namespace StoreApp.DataAccess.Repository
             return query.FirstOrDefault();
         }
 
-        public IEnumerable<T> GetAll(System.Linq.Expressions.Expression<Func<T, bool>> filter, string? includeProperties = null)
+        public IEnumerable<T> GetAll(System.Linq.Expressions.Expression<Func<T, bool>>? filter = null, string? includeProperties = null)
         {
             IQueryable<T> query = _dbSet;
             if (filter != null)

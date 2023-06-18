@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BIjXC7ZfhM9y5AFmxmTAn4xHgd4V6sB3xSKsC9uPv+o=",
+  "Hash": "on474MWxl+Bxis8+llciU0R8xUXyzbl3TbLmmkaGnDs=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\order\\successful.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/order/successful.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\order\\successful.jpg"
     },
     {
       "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\product\\0c153782-de9c-411c-b479-0934baa952cc.jpg",

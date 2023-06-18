@@ -9,20 +9,24 @@ namespace StoreApp.Models.ViewModels
     public class ShoppingCartVM
     {
         public IEnumerable<ShoppingCart> ShoppingCarts { get; set; }
-        public double TotalOrder { get; set; }
+        public OrderHeader OrderHeader { get; set; }
 
-        public ShoppingCartVM(IEnumerable<ShoppingCart> shoppingCarts)
+        /*public ShoppingCartVM(IEnumerable<ShoppingCart> shoppingCarts)
         {
             ShoppingCarts = shoppingCarts;
-            TotalOrder = ComputeTotalOrder();
-        }
+            OrderHeader = new()
+            {
+                TotalOrder = ComputeTotalOrder()
+            };
+        }*/
 
-        private double ComputeTotalOrder()
+        public double ComputeTotalOrder()
         {
             double total = 0;
             foreach (ShoppingCart shoppingCart in ShoppingCarts ?? Enumerable.Empty<ShoppingCart>())
             {
-                total += GetPriceBaseOnQuantity(shoppingCart) * shoppingCart.Count;
+                shoppingCart.Price = GetPriceBaseOnQuantity(shoppingCart);
+                total += shoppingCart.Price * shoppingCart.Count;
             }
             return total;
         }

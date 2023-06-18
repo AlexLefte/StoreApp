@@ -20,6 +20,8 @@ namespace StoreApp.DataAccess.Data
         public DbSet<Company> Companies { get; set; }
         public DbSet<User> Users { get; set;  }
         public DbSet<ShoppingCart> ShoppingCarts { get; set; }
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+        public DbSet<OrderDetails> OrderDetails { get; set; }
         #endregion
 
         #region Methods
