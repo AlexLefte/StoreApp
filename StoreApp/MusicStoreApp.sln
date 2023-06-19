@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStoreApp", "StoreApp\MusicStoreApp.csproj", "{C592A9AC-C66C-4511-8DFC-876BB7FC7808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp", "StoreApp\StoreApp.csproj", "{C592A9AC-C66C-4511-8DFC-876BB7FC7808}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStoreApp.DataAccess", "StoreApp.DataAccess\MusicStoreApp.DataAccess.csproj", "{C1429061-415A-4565-9654-B13615CACC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp.DataAccess", "StoreApp.DataAccess\StoreApp.DataAccess.csproj", "{C1429061-415A-4565-9654-B13615CACC50}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStoreApp.Models", "StoreApp.Models\MusicStoreApp.Models.csproj", "{EFB26598-0B7D-44F4-A223-B7886E51275F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp.Models", "StoreApp.Models\StoreApp.Models.csproj", "{EFB26598-0B7D-44F4-A223-B7886E51275F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStoreApp.Utility", "StoreApp.Utility\MusicStoreApp.Utility.csproj", "{5F3C0419-749B-48E0-92B4-3B09C3314D38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp.Utility", "StoreApp.Utility\StoreApp.Utility.csproj", "{5F3C0419-749B-48E0-92B4-3B09C3314D38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
