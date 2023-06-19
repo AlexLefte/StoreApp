@@ -30,5 +30,9 @@ namespace StoreApp.Utility
         public const string PaymentStatusDelayedPayment = "ApprovedForDelayedPayment";
         public const string PaymentStatusRejected = "Rejected";
         #endregion
+
+        #region Session
+        public const string SessionCart = "SessionShoppingCart";        
+        #endregion
     }
 }

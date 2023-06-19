@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using StoreApp.DataAccess.Repository.IRepository;
 using StoreApp.Models;
+using StoreApp.Utility;
 using System.Diagnostics;
 using System.Security.Claims;
 
@@ -50,10 +51,14 @@ namespace StoreApp.Areas.Customer.Controllers
             {
                 cartFromDb.Count += cart.Count;
                 _unitOfWork.ShoppingCart.Update(cartFromDb);
+                _unitOfWork.Save();
             }
             else
             {
-                _unitOfWork.ShoppingCart.Add(cart);               
+                _unitOfWork.ShoppingCart.Add(cart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                    _unitOfWork.ShoppingCart.GetAll(cartFromDb => cartFromDb.UserId == cart.UserId).Count());
             }
             TempData["success"] = "Cart updated successfully!";
             _unitOfWork.Save();

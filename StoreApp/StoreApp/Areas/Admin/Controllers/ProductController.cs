@@ -5,10 +5,13 @@ using StoreApp.Models;
 using StoreApp.Models.ViewModels;
 using StoreApp.DataAccess.Data;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Authorization;
+using StoreApp.Utility;
 
 namespace StoreApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = SD.Role_Admin)]
     public class ProductController : Controller
     {
         #region Fields
