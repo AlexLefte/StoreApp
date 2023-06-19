@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StoreApp.Models\StoreApp.Models.csproj" />
-    <ProjectReference Include="..\StoreApp.Utility\StoreApp.Utility.csproj" />
+    <ProjectReference Include="..\StoreApp.Models\MusicStoreApp.Models.csproj" />
+    <ProjectReference Include="..\StoreApp.Utility\MusicStoreApp.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

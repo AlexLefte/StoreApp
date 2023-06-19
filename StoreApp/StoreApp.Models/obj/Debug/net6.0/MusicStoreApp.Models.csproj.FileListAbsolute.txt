@@ -1,0 +1,12 @@
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\MusicStoreApp.Models.deps.json
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\MusicStoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\bin\Debug\net6.0\MusicStoreApp.Models.pdb
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.csproj.AssemblyReference.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.AssemblyInfoInputs.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.AssemblyInfo.cs
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.csproj.CoreCompileInputs.cache
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\refint\MusicStoreApp.Models.dll
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\MusicStoreApp.Models.pdb
+D:\MyProjects\StoreApp\StoreApp\StoreApp.Models\obj\Debug\net6.0\ref\MusicStoreApp.Models.dll

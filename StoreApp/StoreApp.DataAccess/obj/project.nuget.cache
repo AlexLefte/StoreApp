@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hsf0v/N78bLJ/PvogwbEIlEg0pfpuVyEb4wI866iUqcQ8+Iru5tngMlY8kX6Evr17RZ+bPH9KfilzpsdjwU2Ng==",
+  "dgSpecHash": "zKvMESBiOsKnPe8+TRfoNMO74Z7+cyS28xjX3AJGDpjTJCkue5NtSFWaH0z/+mErW86vHgRHldQlzR6dbFyGjA==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\StoreApp.DataAccess.csproj",
+  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\MusicStoreApp.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "du9M96c0ufIspoaO9hdjMT6KBA4SlTLsjITOlmS2ptwnfgNCd+6zZdNQSdKN5ia/zUTjkhdcuQdtmXlkQdVfSw==",
+  "dgSpecHash": "hsE4ylxvtgsR2eToYT9uo6RcrRpBZNR6Lm+J7m3e3Nurj7XomWu7WttAGiIGbdaLmqMcbZ+7+031Ctxpm/65uw==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj",
+  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\MusicStoreApp.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

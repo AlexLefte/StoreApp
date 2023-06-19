@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aF+ZVdBJEbcR2c6AZfD3z/ggHyb2mWMoSzoASgnfU1WxmGPtsP7aUDLIgKzkcw0LGExqRUZiIeBdk05ddLFUcQ==",
+  "dgSpecHash": "M6MMrSWdp334hhauO1/MnF1BYNhJE/sobvP4BIpTffntrOsl0ahKZmLVsaevuA/MtHQGNexcrcYYze0XixTQ6A==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\StoreApp.Utility.csproj",
+  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\MusicStoreApp.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.16\\microsoft.aspnetcore.cryptography.internal.6.0.16.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.16\\microsoft.aspnetcore.cryptography.keyderivation.6.0.16.nupkg.sha512",
