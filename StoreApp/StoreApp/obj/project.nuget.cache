@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t4PaSDzZtPnoCfJGfBnjG0p0R4X0x3wyfcds/AjC8TjJnlkClXY8aX4RnwsU779WAH+ydiD+Sa2DHCthHIzJ5g==",
+  "dgSpecHash": "IhMEkTQHcyrBfqzkw49/RLigbuMc1p/o2mWFfN0yl8DF0rXkoGMCjJVfEJnfq3kELjONy8+YSadsrx/vLjWvTw==",
   "success": true,
-  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\MusicStoreApp.csproj",
+  "projectFilePath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

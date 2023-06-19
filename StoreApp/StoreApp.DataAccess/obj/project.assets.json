@@ -3743,7 +3743,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "MusicStoreApp.Models/1.0.0": {
+      "StoreApp.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -3751,23 +3751,23 @@
           "Microsoft.Extensions.Identity.Stores": "6.0.16"
         },
         "compile": {
-          "bin/placeholder/MusicStoreApp.Models.dll": {}
+          "bin/placeholder/StoreApp.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MusicStoreApp.Models.dll": {}
+          "bin/placeholder/StoreApp.Models.dll": {}
         }
       },
-      "MusicStoreApp.Utility/1.0.0": {
+      "StoreApp.Utility/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "6.0.16"
         },
         "compile": {
-          "bin/placeholder/MusicStoreApp.Utility.dll": {}
+          "bin/placeholder/StoreApp.Utility.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MusicStoreApp.Utility.dll": {}
+          "bin/placeholder/StoreApp.Utility.dll": {}
         }
       }
     }
@@ -11149,15 +11149,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "MusicStoreApp.Models/1.0.0": {
+    "StoreApp.Models/1.0.0": {
       "type": "project",
-      "path": "../StoreApp.Models/MusicStoreApp.Models.csproj",
-      "msbuildProject": "../StoreApp.Models/MusicStoreApp.Models.csproj"
+      "path": "../StoreApp.Models/StoreApp.Models.csproj",
+      "msbuildProject": "../StoreApp.Models/StoreApp.Models.csproj"
     },
-    "MusicStoreApp.Utility/1.0.0": {
+    "StoreApp.Utility/1.0.0": {
       "type": "project",
-      "path": "../StoreApp.Utility/MusicStoreApp.Utility.csproj",
-      "msbuildProject": "../StoreApp.Utility/MusicStoreApp.Utility.csproj"
+      "path": "../StoreApp.Utility/StoreApp.Utility.csproj",
+      "msbuildProject": "../StoreApp.Utility/StoreApp.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11167,8 +11167,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.13",
-      "MusicStoreApp.Models >= 1.0.0",
-      "MusicStoreApp.Utility >= 1.0.0"
+      "StoreApp.Models >= 1.0.0",
+      "StoreApp.Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11178,9 +11178,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\MusicStoreApp.DataAccess.csproj",
-      "projectName": "MusicStoreApp.DataAccess",
-      "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\MusicStoreApp.DataAccess.csproj",
+      "projectUniqueName": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\StoreApp.DataAccess.csproj",
+      "projectName": "StoreApp.DataAccess",
+      "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\StoreApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
       "outputPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
@@ -11203,11 +11203,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\MusicStoreApp.Models.csproj": {
-              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\MusicStoreApp.Models.csproj"
+            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj": {
+              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj"
             },
-            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\MusicStoreApp.Utility.csproj": {
-              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\MusicStoreApp.Utility.csproj"
+            "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\StoreApp.Utility.csproj": {
+              "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Utility\\StoreApp.Utility.csproj"
             }
           }
         }

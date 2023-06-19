@@ -6596,9 +6596,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\MusicStoreApp.Models.csproj",
-      "projectName": "MusicStoreApp.Models",
-      "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\MusicStoreApp.Models.csproj",
+      "projectUniqueName": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj",
+      "projectName": "StoreApp.Models",
+      "projectPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\StoreApp.Models.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
       "outputPath": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp.Models\\obj\\",
       "projectStyle": "PackageReference",
