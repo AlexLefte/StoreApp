@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'music-store-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4C8DEB10CAE449F09B8176EC6AECEF04 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BF3F565C70A84B4D87E2AE2CED461DA1 }}
           package: .
