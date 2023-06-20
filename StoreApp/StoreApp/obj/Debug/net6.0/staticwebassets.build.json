@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yyz8oEWh6/w+mQVVWaCLAJx5t6Zxfl+1RuX3csQSfHk=",
+  "Hash": "AH0oMjb19tXG/Xyr/z/sim+jq3sDSaXBGkmAzL0xBrg=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -1224,6 +1224,40 @@
       "OriginalItemSpec": "wwwroot\\images\\product\\a467965f-567e-4635-b18d-07e551b04ad6.png"
     },
     {
+      "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\product\\adele.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/product/adele.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\adele.jpg"
+    },
+    {
+      "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\product\\beethoven.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/product/beethoven.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\beethoven.jpg"
+    },
+    {
       "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\product\\f817609b-fab5-411d-b3e5-8670f154dab0.jpg",
       "SourceId": "StoreApp",
       "SourceType": "Discovered",
@@ -1239,6 +1273,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\f817609b-fab5-411d-b3e5-8670f154dab0.jpg"
+    },
+    {
+      "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\images\\product\\taylor_swift.jpeg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/product/taylor_swift.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\taylor_swift.jpeg"
     },
     {
       "Identity": "D:\\MyProjects\\StoreApp\\StoreApp\\StoreApp\\wwwroot\\js\\company.js",

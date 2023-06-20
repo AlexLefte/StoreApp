@@ -22,84 +22,18 @@
         <table id="tblData" class="table table-bordered table-striped" style="width:100%">
             <thead>
                 <tr>
-                    <th>
-                        Product Title
-                    </th>    
-                    <th>
-                        Description
-                    </th>
-                    <th>
-                        ISBN
-                    </th>
-                    <th>
-                        Author
-                    </th>
-                    <th>
-                        List Price
-                    </th>
-                    <th>
-                        Price
-                    </th>
-                    <th>
-                        Price50
-                    </th>
-                    <th>
-                        Price100
-                    </th>
-                    <th>
-                        Category
-                    </th>
+                    <th> Product Title </th>    
+                    <th> Description </th>
+                    <th> ISBN </th>
+                    <th> Author </th>
+                    <th> List Price </th>
+                    <th> Price </th>
+                    <th> Price50 </th>
+                    <th> Price100 </th>
+                    <th> Category </th>
                     <th></th>
                 </tr>
-            </thead>
-            @*
-            <tbody>
-                <!-- No longer needed -->
-                @foreach (Product Product in Model.OrderBy(cat => cat.Title)) {
-                <tr>
-                    <td>
-                        @Product.Title
-                    </td>
-                    <td>    
-                        @Product.Description    
-                    </td>
-                    <td>    
-                        @Product.ISBN    
-                    </td>
-                    <td>    
-                        @Product.Author   
-                    </td>
-                    <td>    
-                        @Product.ListPrice    
-                    </td>
-                    <td>    
-                        @Product.Price   
-                    </td>
-                    <td>    
-                        @Product.Price50   
-                    </td>
-                    <td>    
-                        @Product.Price100   
-                    </td>
-                    <th>
-                        @Product.Category.Name
-                    </th>
-                    <td>
-
-                    </td>
-                    <td>    
-                        <div class="w-75 btn-group">
-                            <a asp-controller="Product" asp-action="Upsert" asp-route-id="@Product.Id" class="btn btn-primary mx-2">
-                                <i class="bi bi-pencil-square"></i> Edit
-                            </a>
-                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@Product.Id" class="btn btn-danger mx-2">
-                                <i class="bi bi-trash-fill"></i> Delete
-                            </a>
-                        </div>
-                    </td>  
-                </tr>
-                } 
-            </tbody> *@
+            </thead>       
         </table>
     </div>
 </div>

@@ -11,15 +11,6 @@ namespace StoreApp.Models.ViewModels
         public IEnumerable<ShoppingCart> ShoppingCarts { get; set; }
         public OrderHeader OrderHeader { get; set; }
 
-        /*public ShoppingCartVM(IEnumerable<ShoppingCart> shoppingCarts)
-        {
-            ShoppingCarts = shoppingCarts;
-            OrderHeader = new()
-            {
-                TotalOrder = ComputeTotalOrder()
-            };
-        }*/
-
         public double ComputeTotalOrder()
         {
             double total = 0;
