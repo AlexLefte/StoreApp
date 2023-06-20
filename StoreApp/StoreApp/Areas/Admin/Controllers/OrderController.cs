@@ -129,7 +129,7 @@ namespace StoreApp.Areas.Admin.Controllers
 
            
                 // Stripe logic for regular customers
-                var domain = "https://localhost:7291/";
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new SessionCreateOptions
                 {
                     SuccessUrl = domain + $"admin/order/PaymentConfirmation?orderHeaderId={OrderVM.OrderHeader.Id}",

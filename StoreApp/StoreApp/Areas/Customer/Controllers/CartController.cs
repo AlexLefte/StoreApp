@@ -104,7 +104,7 @@ namespace StoreApp.Areas.Customer.Controllers
             if (user.CompanyId.GetValueOrDefault() == 0)
             {
                 // Stripe logic for regular customers
-                var domain = "https://localhost:7291/";
+                var domain = Request.Scheme + "://" + Request.Host.Value + "/";
                 var options = new SessionCreateOptions
                 {
                     SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={ShoppingCartVM.OrderHeader.Id}",
